@@ -1,0 +1,25 @@
+2026-09-10 09:00:01 INFO Application started successfully on host app-node-01
+2026-09-10 09:00:15 INFO Initializing database pool connections
+2026-09-10 09:01:03 WARNING Database response slow
+2026-09-10 09:01:15 ERROR Database connection failed: network timeout reaching db.internal
+2026-09-10 09:01:30 INFO Retrying database connection attempt 1
+2026-09-10 09:01:45 ERROR Database connection failed: network timeout reaching db.internal
+2026-09-10 09:02:01 INFO User user_1042 logged in successfully
+2026-09-10 09:02:15 WARN Cache miss ratio high
+2026-09-10 09:03:00 DEBUG Cache warmed up with 1500 key-value pairs
+2026-09-10 09:03:22 ERROR File upload failed: permission denied for bucket application-logs
+2026-09-10 09:04:10 WARNING Memory usage high
+2026-09-10 09:04:35 INFO Background report compilation job scheduled
+2026-09-10 09:05:02 WARNING Database response slow
+2026-09-10 09:05:42 ERROR Database connection failed: network timeout reaching db.internal
+[CORRUPT_LOG_LINE_MISSING_TIMESTAMP_AND_LEVEL] System unexpected dump buffer overflow 0x8004
+2026-09-10 09:06:10 ERROR Authentication failed: invalid token signature for user_502
+2026-09-10 09:06:45 WARNING Memory usage high
+2026-09-10 09:07:12 INFO Health check passed: HTTP 200 OK
+2026-09-10 09:07:55 ERROR File upload failed: permission denied for bucket application-logs
+2026-09-10 09:08:20 WARNING Database response slow
+2026-09-10 09:08:50 ERROR Database connection failed: network timeout reaching db.internal
+2026-09-10 09:09:15 INFO Scheduled cleanup finished: 450 transient files removed
+2026-09-10 09:09:40 WARNING Memory usage high
+2026-09-10 09:10:05 ERROR Authentication failed: invalid token signature for user_502
+2026-09-10 09:10:30 INFO Server shutting down cleanly

@@ -1,0 +1,42 @@
+# Environment variables and sensitive files
+.env
+*.env
+credentials
+secrets
+*.pem
+*.key
+
+# Python files & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Testing & coverage outputs
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local report output files
+reports/*.json
+reports/*.txt
+!reports/.gitkeep
+
+# Terraform local state files and directories
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/terraform.tfvars
+terraform/.terraform.lock.hcl
+
+# Operating System & IDE files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
